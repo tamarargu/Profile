@@ -1,0 +1,494 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+body{
+height: 100%;
+margin: 0;
+background-image:url(../img/fondo2.jpg);
+background-attachment: fixed;
+background-size: cover;
+}
+h1, a{
+	font-family: 'Sancreek', cursive;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+/**************menu por Tam*********/
+header{
+	margin-bottom: 50px;
+}
+
+header nav.menu {
+	position: fixed;
+	z-index: 100; 
+	height: 80px;
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+   
+}
+header nav.menu .menu_{
+	text-align: center;
+}
+header nav.menu .menu_ a,p{
+    margin: 15px 40px;
+    font-size: 20pt;
+    display: inline-block;
+	color: white;
+	text-decoration: none;	
+}
+
+header nav.menu .mobile{
+	display: none;
+}
+
+/* CAJALOGO (Mila)*/
+/*header .contlogo img{
+	width: 500px;
+	height: 500px;
+	margin-top: 100px;
+	background-color: #000000;
+	border-radius: 100%;
+	margin-left: 500px;
+}*/
+
+/*************ARTISTAS(MILA)***************/
+.tres{
+	width: 100%;
+}
+
+.dos{
+	width: 50%;
+}
+
+#artistas{
+	margin: 150px 100px;
+}
+#kat {
+	position: absolute;
+	margin-left: 40px;	
+	margin-top: 100px;
+	opacity: 0;
+}
+#hannah {
+	position: absolute;
+	margin-left: 60px;	
+	margin-top: 100px;
+	opacity: 0;
+}
+#meg {
+	position: absolute;
+	margin-left: 100px;	
+	margin-top: 100px;
+	opacity: 0;
+}
+#chris {
+	position: absolute;
+	margin-left: 100px;	
+	margin-top: 100px;
+	opacity: 0;
+}
+#artistas img{
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+}
+#artistas img:hover{
+	-webkit-transition:opacity 0.4s;
+	-moz-transition:opacity 0.4s;
+	opacity:0.2;
+}
+#artistas:hover #kat{
+	opacity: 1;
+	z-index: 20;
+}
+#artistas:hover #hannah{
+	opacity: 1;
+	z-index: 20;
+}
+#artistas:hover #meg{
+	opacity: 1;
+	z-index: 20;
+}
+#artistas:hover #chris{
+	opacity: 1;
+	z-index: 20;
+}
+#artistas a{
+	font-family: 'Sancreek', cursive;
+    text-decoration: none;
+    font-size: 50px;
+    color:black;
+
+}
+/*.contcajas{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contcajas img{
+	margin: 80px 20px 20px 20px;
+	/*padding: 0px 20px 20px 0px;*/
+	/*border-radius: 100%;
+	width: 200px;
+	height: 200px;
+}
+
+.caja a{
+opacity: 1.0;
+}
+
+
+.caja a:hover{
+	opacity: 0.8;
+    zoom: 1;
+}
+.galeria img{
+	width: 20px;
+	height: 20px;
+}*/
+
+/****************ESTUDIO*VIDEODIVS******************/
+
+section .videodivs{
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	text-align: center;
+
+
+}
+
+section .main {
+	margin-left: 300px;
+	width:80%;
+	max-width:1000px;
+	/*text-align: left;*/
+}
+
+section .main .slides {
+	width:100%;
+}
+ 
+section .main .slides img {
+	z-index: -1;
+	width: 940px;
+	height: 528px;
+}
+ 
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+ 
+.slidesjs-pagination li {
+	float:left;
+}
+ 
+.slidesjs-pagination li a {
+	display:block;
+	padding:10px 20px;
+	color:white;
+	text-decoration:none;
+
+}
+
+ 
+.slidesjs-pagination li a:hover {
+	background:000;
+	color: white;
+}
+
+.slides .active {
+	background:#000;
+}
+ 
+.slidesjs-navigation{
+	background:#000;
+	color:#fff;
+	text-decoration: none;
+	display:inline-block;
+	padding:13.5px 20px;
+	float:right;
+	
+}
+/************ESTUDIO************************/
+.infoestudio{
+	background-color: rgba(255,255,255,0.85);
+	text-align: center;
+	width: 98%;
+	margin: 10px 0px 20px 13px;
+
+}
+section p{
+color: black;
+font-family: Montserrat;
+	
+}
+section h2{
+	color:black;
+	text-decoration:none;
+	margin-left: 50px;
+	
+} 
+
+
+/**********************FORMULARIO******************/
+#sectform {
+	padding:30px 0 30px 0px;
+	margin: 0px 10px 20px 10px;
+}
+.infoestudio h2{
+	padding-top: 30px;
+	font-size: 50px;
+	text-align: left;
+}
+form {
+	padding-bottom: 30px;
+}
+h2 {
+font-family: 'Sancreek', cursive;
+color: black;
+
+}
+form .datos-personales{
+font-family:'Montserrat', sans-serif;
+font-size: 16px;
+width: 100%;
+height: 50px;
+}
+
+form .calendar{
+	font-family: 'Sancreek', cursive;
+	font-size: 15px;
+
+}
+
+form .comentarios{
+	margin-top: 5px;
+}
+form .cuadrotexto{
+	/*height:200px;*/
+	background-color: #E4E4E4;
+	/*width: 350px;*/
+/*	height: 200px;
+	font-size: 16px;*/
+	font-family:  'Montserrat', sans-serif;
+	/*float: right;*/
+}
+form #algo-que-seleccione{
+	font-family: helvetica;
+	font-size: 15px;
+	background:#dddddd;
+	color: black;
+	width: 50%;
+}
+
+.claselabel{
+	font-family: 'Sancreek', cursive;
+	font-size: 15px;
+}
+
+button{
+	float: right;
+	margin:0px 5px 10px 0px;
+}
+
+.btn-default {
+	background-color: grey;
+	color: white;
+}
+.btn-clear {
+	background-color: darkgrey;
+	color: white;
+}
+/**********************UBICACION*******************/
+#ubicamos h2{
+	margin-left: 30px;
+}
+
+.mapa iframe{
+
+ max-width:85%;
+ /*height: auto;*/
+ margin-left: 30px;
+
+ }
+
+.info-ubi ul{
+	list-style: none;
+ 	font-family: helvetica;
+ 	line-height: 30px;
+ 	font-size: 15px;
+ 	color: black;
+ 	margin-left: 30px;
+}
+
+form{
+	border-right: 1px solid black;
+
+ }
+
+#sectform{
+ 	background-color: white; 
+ 	color:black;
+ 	/*-webkit-order: ;
+ 	-moz-order: ;
+ 	-ms-order: ;
+ 	-o-order: ;
+ 	order: ;er:3px solid pink;*/
+ }
+
+
+
+/*************************FOOTER***JACQUE********************/
+
+footer #containerFooter {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 15px;
+}
+footer .social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+footer .social {
+	
+     -webkit-transform: scale(0.8); 
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     color: white;
+     margin-top: 30px;
+     margin-left: 30px;
+  }
+
+footer #social-fb:hover {
+     color: #3B5998;
+ }
+ footer #social-tw:hover {
+     color: #4099FF;
+ }
+footer  #social-gp:hover {
+     color: #d34836;
+ }
+footer #social-em:hover {
+     color: #f39c12;
+ }
+
+footer .columnas {
+	display: inline-block; 
+	text-align: center;
+}
+
+footer .columnas a {
+	text-decoration: none;
+	/*float;left: */
+	color: black;
+}
+.afip img{
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+footer .footer:hover {
+     -webkit-transform: scale(0.9);
+     -moz-transform: scale(0.9);
+     -o-transform: scale(0.9);
+}
+footer .footer {
+	padding-bottom: 10px;
+     -webkit-transform: scale(0.8); 
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.3s;
+     -moz-transition-duration: 0.3s;
+     -o-transition-duration: 0.3s;
+	display: inline-block; 
+}
+footer .footer ul {
+	font-size: 20px;
+	list-style-type: none;
+	margin-top: 25px; 
+	color: #F5F5F5;
+}
+
+footer .footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer .footer a:hover {
+	color: rgba(255,255,255,0.5);
+}
+
+ .copyright{
+    background-color:black;
+}
+
+.copyright p{
+    padding:15px 0 10px ;
+    margin: 0 auto;
+    color: #676464;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+ 
+/***MEDIA QUERY*******************/
+
+@media (max-width:800px){
+
+ 	form {border-right: none;
+ 	}
+	header nav.menu p{
+		display: none;
+	}
+	header nav.menu .menu_ a{
+		display: none;
+	}
+   
+
+    header nav.menu .mobile{
+    	display: inline;
+    }
+    .btn-group {
+    	float: right;
+    	margin-top: 20px;
+    	margin-right: 30px;
+    }
+    section .main{
+    	width: 100%;
+    	margin: 0 auto;
+    }
+    section p{
+    	font-size:12px;
+    }
+ 	.calendar{
+ 		margin-left: 50px;
+ 	}
+	#calendar{
+		
+	}
+.slidesjs-navigation{
+	display: none ;
+}
+.slidesjs-pagination-item{
+	display: none;
+}
+/*.slidesjs-stop slidesjs-navigation*/
+}
